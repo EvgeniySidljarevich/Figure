@@ -4,9 +4,6 @@
     padding: 0;
 }
 
-.wrapper {
-    max-width: min-content;
-}
 
 .container {
     position: absolute;
