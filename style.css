@@ -9,9 +9,6 @@
 }
 
 .square {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -43,7 +40,7 @@
     background: rgb(255, 102, 0);
 }
 
-.circle_bl {
+.circle__bl {
     position: absolute;
     bottom: 26%;
     right: 54%;
@@ -54,12 +51,12 @@
     background-color: rgb(238, 34, 12);
 }
 
-.circle_bl:hover {
+.circle__bl:hover {
     background: rgb(255, 0, 140);
     z-index: 7;
 }
 
-.circle_br {
+.circle__br {
     position: absolute;
     bottom: 26%;
     left: 54%;
@@ -70,12 +67,12 @@
     background-color: rgb(238, 34, 12);
 }
 
-.circle_br:hover {
+.circle__br:hover {
     background: rgb(94, 255, 0);
     z-index: 7;
 }
 
-.circle_tr {
+.circle__tr {
     position: absolute;
     top: 26%;
     right: 54%;
@@ -86,12 +83,12 @@
     background-color: rgb(238, 34, 12);
 }
 
-.circle_tr:hover {
+.circle__tr:hover {
     background: rgb(150, 0, 0);
     z-index: 7;
 }
 
-.circle_tl {
+.circle__tl {
     position: absolute;
     top: 26%;
     left: 54%;
@@ -102,7 +99,7 @@
     background-color: rgb(238, 34, 12);
 }
 
-.circle_tl:hover {
+.circle__tl:hover {
     background: rgb(234, 0, 255);
     z-index: 7;
 }
