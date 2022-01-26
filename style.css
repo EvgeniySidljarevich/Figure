@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+}
+
+.square {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 5;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    background-color: rgb(0, 162, 255);
+}
+
+.square:hover {
+    background: blue;
+    z-index: 15;
+}
+
+.fewsquare {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    background-color: rgb(248, 186, 0);
+}
+
+.fewsquare:hover {
+    background: rgb(255, 102, 0);
+}
+
+.circle_bl {
+    position: absolute;
+    bottom: 26%;
+    right: 54%;
+    z-index: 1;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: rgb(238, 34, 12);
+}
+
+.circle_bl:hover {
+    background: rgb(255, 0, 140);
+    z-index: 7;
+}
+
+.circle_br {
+    position: absolute;
+    bottom: 26%;
+    left: 54%;
+    z-index: 1;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: rgb(238, 34, 12);
+}
+
+.circle_br:hover {
+    background: rgb(94, 255, 0);
+    z-index: 7;
+}
+
+.circle_tr {
+    position: absolute;
+    top: 26%;
+    right: 54%;
+    z-index: 0;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: rgb(238, 34, 12);
+}
+
+.circle_tr:hover {
+    background: rgb(150, 0, 0);
+    z-index: 7;
+}
+
+.circle_tl {
+    position: absolute;
+    top: 26%;
+    left: 54%;
+    z-index: 0;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: rgb(238, 34, 12);
+}
+
+.circle_tl:hover {
+    background: rgb(234, 0, 255);
+    z-index: 7;
+}
